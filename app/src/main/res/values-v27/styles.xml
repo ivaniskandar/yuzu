@@ -1,0 +1,7 @@
+<resources>
+    <style name="Base.V27.AppTheme" parent="Platform.AppTheme">
+        <item name="android:windowLightNavigationBar">@bool/lightUi</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+    </style>
+    <style name="Base.AppTheme" parent="Base.V27.AppTheme" />
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Yuzu</string>
+    <string name="notification_general_title">General</string>
+    <string name="boot_notification_title">Playing boot sound</string>
+    <string name="theme">Theme</string>
+    <string name="boot_sound">Boot sound</string>
+
+    <string name="sound_option_title_home">Home</string>
+    <string name="sound_option_title_mac">Mac</string>
+    <string name="sound_option_title_pixel">Pixel</string>
+    <string name="sound_option_title_vista">Vista</string>
+    <string name="sound_option_title_xp">XP</string>
+
+    <string name="sound_option_key_home" translatable="false">ome</string>
+    <string name="sound_option_key_mac" translatable="false">mac</string>
+    <string name="sound_option_key_pixel" translatable="false">pixel</string>
+    <string name="sound_option_key_vista" translatable="false">vista</string>
+    <string name="sound_option_key_xp" translatable="false">xp</string>
+</resources>

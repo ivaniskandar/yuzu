@@ -1,0 +1,11 @@
+<resources>
+    <style name="Platform.AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Base.AppTheme" parent="Platform.AppTheme" />
+    <style name="AppTheme" parent="Base.AppTheme">
+        <item name="colorPrimary">@color/themeColor</item>
+        <item name="colorSecondary">@color/themeColor</item>
+        <item name="android:colorBackground">@color/activity_bg</item>
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar">@bool/lightUi</item>
+    </style>
+</resources>
