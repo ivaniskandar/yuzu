@@ -51,5 +51,11 @@ class BootService : Service() {
         return START_NOT_STICKY
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        mediaPlayer?.release()
+        mediaPlayer = null
+    }
+
     override fun onBind(intent: Intent): IBinder? = null
 }
